@@ -1,0 +1,22 @@
+{
+  "name": "capybaracli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CapybaraCLI - CLI foundation (Bun + TypeScript) as an alternative to Claude Code.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "capybara": "src/cli.ts"
+  },
+  "scripts": {
+    "dev": "bun run src/cli.ts -- help",
+    "start": "bun run src/cli.ts",
+    "build": "bun build ./src/cli.ts --target=bun --outdir=dist --sourcemap",
+    "test": "bun test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "bun-types": "^1.3.1"
+  }
+}

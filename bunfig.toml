@@ -1,0 +1,7 @@
+[install]
+# Where bun links global binaries
+# set based on your environment; default works for most cases
+# path = "~/.bun/bin"
+
+[test]
+preload = ["./tsconfig.json"]
